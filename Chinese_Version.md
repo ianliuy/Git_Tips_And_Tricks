@@ -1,4 +1,4 @@
-# yiyangiliu_personal_git_tips_and_tricks
+# Git_Tips_And_Tricks
 
 [English](./README.md) | 中文
 
