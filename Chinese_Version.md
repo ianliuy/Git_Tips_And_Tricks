@@ -42,6 +42,34 @@ git config --global alias.ps push
 git config --global alias.rbm "rebase master"
 git config --global alias.rl reflog 
 
+alias.co=checkout
+alias.br=branch
+alias.bra=branch -a
+alias.bk=checkout --
+alias.readd=reset HEAD
+alias.ss=status
+alias.lg=log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
+alias.cm=commit -m
+alias.nb=checkout -b
+alias.return=checkout -- 
+alias.po=push origin
+alias.plo=pull origin
+alias.pl=pull
+alias.ps=push
+alias.rl=reflog
+alias.com=checkout mainline
+alias.rbm=rebase mainline
+alias.st=stash push
+alias.stp=stash pop
+alias.recm=reset HEAD~
+alias.rb=rebase --interactive
+alias.cma=commit --amend --no-edit
+alias.stg=stash apply stash^{/auto_generated_files}
+alias.cln=clean -fd
+alias.lgb=log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset%n' --abbrev-commit --date=relative --branches
+alias.ada=add .
+
+
 ## 删除全局配置
 git config --global --unset alias.xxx
 git config --global --unset user.xxx
